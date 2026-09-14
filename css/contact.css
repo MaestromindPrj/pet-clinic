@@ -190,7 +190,7 @@
 .emergency-banner {
   background-color: var(--color-red);
   padding: 30px 0;
-  color: var(--color-white);
+  color: #ffffff;
 }
 
 .emergency-banner-inner {
