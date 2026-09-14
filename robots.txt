@@ -1,0 +1,5 @@
+# Robots.txt for Pet Cross of India (https://www.petcrossofindia.com/)
+User-agent: *
+Allow: /
+# Sitemap URL
+Sitemap: https://www.petcrossofindia.com/sitemap.xml
