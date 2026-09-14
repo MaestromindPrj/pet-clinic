@@ -1,0 +1,512 @@
+body.services-page,
+body.services-page main {
+  background-color: #FFFFFF;
+}
+
+.services-intro-section {
+  padding-top: 45px;
+  padding-bottom: 35px;
+  background-color: #FFFFFF;
+}
+
+.services-intro-section .section-header-center {
+  margin-bottom: 10px;
+}
+
+.services-group-section {
+  padding: 45px 0;
+  background-color: #FFFFFF;
+}
+
+.services-group-section.bg-light-gray {
+  background-color: #FAFBFC;
+}
+
+.services-section-header {
+  margin-bottom: 26px;
+}
+
+.services-section-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  margin-bottom: 6px;
+  letter-spacing: -0.02em;
+}
+
+.services-section-subtitle {
+  font-size: 15px;
+  color: var(--color-secondary-blue);
+  font-weight: 600;
+}
+
+.services-section-subtitle.text-dark {
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.pathways-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.pathway-card {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 32px 30px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.pathway-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.07);
+  border-color: rgba(0, 120, 196, 0.25);
+}
+
+.pathway-header-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.pathway-badge-number {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  background-color: var(--color-bg-light-blue);
+  color: var(--color-primary);
+  font-size: 15px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border: 1px solid rgba(0, 120, 196, 0.15);
+}
+
+.pathway-titles-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.pathway-main-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.pathway-tamil-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.pathway-target-subheading {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  margin-bottom: 2px;
+}
+
+.pathway-target-tamil {
+  font-size: 13.5px;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.pathway-description {
+  font-size: 14.5px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.pathway-tamil-description {
+  font-size: 13.5px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-top: auto;
+}
+
+.preventive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.treatment-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.diagnostic-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 24px;
+}
+
+.diagnostic-grid .service-card:nth-child(1),
+.diagnostic-grid .service-card:nth-child(2),
+.diagnostic-grid .service-card:nth-child(3) {
+  grid-column: span 2;
+}
+
+.diagnostic-grid .service-card:nth-child(4),
+.diagnostic-grid .service-card:nth-child(5) {
+  grid-column: span 3;
+}
+
+.free-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.vaccination-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.service-card {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 26px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.07);
+  border-color: rgba(0, 120, 196, 0.25);
+}
+
+.service-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.service-card-accent-bar {
+  width: 4px;
+  height: 20px;
+  border-radius: 2px;
+  background-color: var(--color-secondary-blue);
+  flex-shrink: 0;
+}
+
+.service-card-accent-bar.accent-red {
+  background-color: var(--color-red);
+}
+
+.service-card-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  letter-spacing: -0.01em;
+}
+
+.service-card-tamil-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin-top: -6px;
+  margin-bottom: 12px;
+  padding-left: 14px;
+}
+
+.service-card-desc {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.service-card-checklist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.service-card-checklist li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13.5px;
+  color: var(--color-text-secondary);
+  line-height: 1.45;
+}
+
+.service-card-checklist li svg {
+  width: 17px;
+  height: 17px;
+  fill: var(--color-secondary-blue);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.vaccine-card {
+  background-color: var(--color-white);
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.vaccine-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.07);
+  border-color: rgba(0, 120, 196, 0.25);
+}
+
+.vaccine-sub-badge {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: 10px;
+}
+
+.vaccine-price-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.vaccine-price-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.price-tag-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 800;
+  min-width: 50px;
+}
+
+.price-tag-blue {
+  background-color: rgba(0, 120, 196, 0.12);
+  color: var(--color-secondary-blue);
+}
+
+.price-tag-red {
+  background-color: rgba(217, 40, 40, 0.12);
+  color: var(--color-red);
+}
+
+.vaccine-tamil-note {
+  font-size: 13.5px;
+  color: var(--color-text-secondary);
+  font-weight: 600;
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.consultation-cta-card {
+  background-color: var(--color-white);
+  border-radius: 20px;
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.consultation-header {
+  margin-bottom: 24px;
+}
+
+.consultation-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  margin-bottom: 10px;
+  letter-spacing: -0.02em;
+}
+
+.consultation-desc {
+  font-size: 15.5px;
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+  max-width: 820px;
+}
+
+.consultation-details-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.consultation-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  font-size: 15px;
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.consultation-detail-item a {
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.consultation-detail-item a:hover {
+  color: var(--color-secondary-blue);
+}
+
+.consultation-address-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.consultation-address-title {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+}
+
+.consultation-address-sub {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
+.consultation-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-secondary-blue);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.consultation-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+  .pathways-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .preventive-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .treatment-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .diagnostic-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .diagnostic-grid .service-card:nth-child(1),
+  .diagnostic-grid .service-card:nth-child(2),
+  .diagnostic-grid .service-card:nth-child(3),
+  .diagnostic-grid .service-card:nth-child(4),
+  .diagnostic-grid .service-card:nth-child(5) {
+    grid-column: span 1;
+  }
+
+  .diagnostic-grid .service-card:nth-child(5) {
+    grid-column: span 2;
+  }
+
+  .free-services-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .vaccination-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .consultation-cta-card {
+    padding: 30px 24px;
+  }
+
+  .consultation-title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-intro-section {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  .services-group-section {
+    padding: 35px 0;
+  }
+
+  .preventive-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .diagnostic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .diagnostic-grid .service-card:nth-child(5) {
+    grid-column: span 1;
+  }
+
+  .free-services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .consultation-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .consultation-actions .btn-primary,
+  .consultation-actions .btn-secondary,
+  .consultation-actions .btn-outline {
+    width: 100%;
+    text-align: center;
+  }
+}
