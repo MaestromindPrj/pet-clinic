@@ -5,7 +5,7 @@
   --color-secondary-blue: #0078C4;
   --color-badge-bg-default: rgba(0, 120, 196, 0.10);
   --color-badge-text-default: #0078C4;
-  --color-hero-badge-bg: rgba(0, 120, 196, 0.15);
+  --color-hero-badge-bg: var(--color-secondary-blue);
   --color-hero-badge-text: #FFFFFF;
   --color-hero-subtitle: rgba(255, 255, 255, 0.75);
   --color-hero-outline-border: rgba(255, 255, 255, 0.75);
@@ -96,11 +96,9 @@ main {
   align-items: center;
   padding: 7px 16px;
   background-color: var(--color-hero-badge-bg);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
   color: var(--color-hero-badge-text);
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 700;
   letter-spacing: 0.08em;
   border-radius: 6px;
   text-transform: uppercase;
@@ -759,7 +757,7 @@ main {
 
   .header-logo {
     height: auto;
-    width: 120px;
+    width: 140px;
   }
 
   .mobile-toggle {
@@ -887,7 +885,7 @@ main {
 @media (max-width: 600px) {
   .header-logo {
     height: auto;
-    width: 100px;
+    width: 108px;
   }
 
   .footer-top {
