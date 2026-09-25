@@ -1,33 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
   <url>
     <loc>https://www.petcrossofindia.com/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.petcrossofindia.com/assets/images/hero-dog.jpg</image:loc>
+      <image:title>Pet Cross of India Veterinary Clinic &amp; Animal Rescue Tirunelveli</image:title>
+      <image:caption>Caring for Every Pet - Dedicated Veterinary Care and Rescue Center in Tirunelveli, Tamil Nadu</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.petcrossofindia.com/assets/images/vaccine.jpeg</image:loc>
+      <image:title>Animal Healthcare and Community Rabies Prevention</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.petcrossofindia.com/assets/images/hero.jpeg</image:loc>
+      <image:title>Pet Cross of India Veterinary Surgery and Outpatient Treatment Center</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://www.petcrossofindia.com/pages/about.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.petcrossofindia.com/assets/images/founder.jpeg</image:loc>
+      <image:title>PG. Thillainayagi - Managing Director &amp; Microbiologist, Pet Cross of India</image:title>
+      <image:caption>Leadership and vision behind Pet Cross of India Animal Welfare Trust in Tirunelveli</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.petcrossofindia.com/pages/services.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://www.petcrossofindia.com/assets/images/vaccine.jpeg</image:loc>
+      <image:title>Veterinary Services, Surgeries, ABC Sterilization and Vaccinations</image:title>
+      <image:caption>Professional clinical services at Pet Cross of India clinic, Tirunelveli Town</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.petcrossofindia.com/pages/our-stories.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.petcrossofindia.com/assets/images/community-care-puppy.jpg</image:loc>
+      <image:title>Community Animal Rescue and Puppy Recovery Stories</image:title>
+      <image:caption>Rescued puppy receiving rehabilitation care at Pet Cross of India Tirunelveli</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://www.petcrossofindia.com/pages/contact.html</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-09-25</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://www.petcrossofindia.com/assets/images/footer-logo.png</image:loc>
+      <image:title>Contact Pet Cross of India - 232 Saliyar Street, Tirunelveli Town</image:title>
+    </image:image>
   </url>
 </urlset>
